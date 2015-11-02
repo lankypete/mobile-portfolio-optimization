@@ -1,0 +1,9 @@
+<IfModule mod_expires.c>
+
+# Enable expirations
+ExpiresActive On
+
+# CSS
+ExpiresByType image/jpg "access plus 600 seconds”
+
+</IfModule>
